@@ -9,8 +9,6 @@ The following files and directories are included in this repository:
 
 /data: Contains the raw and pre-processed influenza data from the Republic of Korea used for the analysis.
 
-/code: Includes the core EnKF model implementation scripts.
-
 Figure.py: The primary execution script to reproduce the study's results.
 
 /Figures: Contains the generated figures.
