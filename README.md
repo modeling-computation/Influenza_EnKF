@@ -7,15 +7,15 @@ This project employs an Ensemble Kalman Filter (EnKF) approach to model and anal
 ## Data Availability
 The raw daily influenza data can be obtained from the source below:
 Raw data: https://www.data.go.kr/data/15089429/fileData.do
-The processed data used in this study are provided in ‘main/Data/influenza_data.xlsx’ including daily influenza case counts, absolute humidity, and influenza proportion.
+The processed data used in this study are provided in `main/Data/influenza_data.xlsx` including daily influenza case counts, absolute humidity, and influenza proportion.
 
 ## Repository Structure
 The following files and directories are included in this repository:
 
-/Data: Contains pre-processed influenza data from the Republic of Korea used in our analysis.
+`/Data`: Contains pre-processed influenza data from the Republic of Korea used in our analysis.
 
-/Results: Contains the seasonal estimates obtained using the Ensemble Kalman Filter (EnKF) from the influenza data of the Republic of Korea (2016/17, 2017/18, and 2022/23 season).
+`/Results`: Contains the seasonal estimates obtained using the Ensemble Kalman Filter (EnKF) from the influenza data of the Republic of Korea (2016/17, 2017/18, and 2022/23 season).
 
-Figure.py: The primary execution script to reproduce the study's results.
+`Figure.py`: The primary execution script to reproduce the study's results.
 
-/Figures: Contains the generated figures.
+`/Figures`: Contains the generated figures.
